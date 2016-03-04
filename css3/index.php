@@ -69,7 +69,7 @@ function runStep(name) {
   <div style="left: 700px; top: 200px; width: 300px; height: 30px; padding: 3px 0px 0px 10px; color: #ffffff; background-color: #3073b8; text-shadow: 3px 3px 2px #000000;">CSS3 text shadow</div>
   <div style="left: 700px; top: 250px; width: 300px; height: 30px; padding: 3px 0px 0px 10px; color: #ffffff; background-color: #3073b8; box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);">CSS3 box shadow</div>
   <div style="left: 700px; top: 300px; width: 300px; height: 30px; padding: 3px 0px 0px 10px; color: #ffffff; background-color: #3073b8; border-radius: 10px;">CSS3 border radius</div>
-  <div style="left: 700px; top: 350px; width: 300px; height: 30px; padding: 3px 0px 0px 10px; color: #ffffff; background: linear-gradient(to right, #3073b8, #89c3ff);">CSS3 linear gradient</div>
+  <div style="left: 700px; top: 350px; width: 300px; height: 30px; padding: 3px 0px 0px 10px; color: #ffffff; background-image: -webkit-linear-gradient(left, #3073b8, #89c3ff); background-image: -o-linear-gradient(left, #3073b8, #89c3ff)); background-iamge: linear-gradient(to right, #3073b8, #89c3ff);">CSS3 linear gradient</div>
   <div style="left: 700px; top: 400px; width: 300px; height: 80px; padding: 3px 0px 0px 10px; color: #ffffff; background-color: #3073b8;">CSS3 blur filter
     <img src="../animation/logo.png" style="left: 10px; top: 30px; width: 256px; height: 44px; position: absolute; filter: blur(5px);" />
   </div>
